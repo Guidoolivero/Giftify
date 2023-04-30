@@ -15,7 +15,11 @@ img {
     margin-top: 50px;
 }
 
-
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-left: 170px;
+}
 
 
 .imagen {
@@ -49,26 +53,38 @@ h4 {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid gray;
+    border: 1px solid silver;
     border-radius: 10px;
-    padding: 15px 15px;
+    padding: 17px 140px ;
     margin-top: -352px;   
 }
+
 
 .sign-in {
     display: flex;
     flex-direction: row;
     gap: 50px;
+    
 }
 
+/* .sign-in h3 {
+    
+    
+} */
 
-
+.iconos {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: -350px;
+    margin-right: -60px;
+}
 
 .lado-derecho img {
     display: flex;
     width: 25px;
     height: 20hv;
-    border: 1px solid gray;
+    border: 1px solid silver;
     padding: 15px 15px;
 }
 
