@@ -18,7 +18,6 @@ img {
 h3 {
     display: flex;
     justify-content: center;
-    margin-left: 170px;
 }
 
 
@@ -30,6 +29,55 @@ h3 {
     margin-left: 150px;
     margin-right: -120px;
 }
+
+
+
+.lado-derecho {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 17px;
+    padding-left: 150px;
+    margin-top: -352px;   
+    
+}
+
+
+
+.lado-derecho img {
+    display: flex;
+    width: 25px;
+    height: 20hv;
+    border: 1px solid silver;
+    padding: 15px 15px;
+}
+
+
+
+
+.lado-derecho img:hover {
+    transform: scale(1.2);
+}
+
+
+.sign-in {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: -216px;
+    margin-right: 40px;
+}
+
+
 
 /* .line-effect {
     text-align: center;
@@ -48,49 +96,3 @@ h4 {
         background-color: black;
         top: 0.6em;
     } */
-
-.lado-derecho {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid silver;
-    border-radius: 10px;
-    padding: 17px 140px ;
-    margin-top: -352px;   
-}
-
-
-.sign-in {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    
-}
-
-/* .sign-in h3 {
-    
-    
-} */
-
-.iconos {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    margin-left: -350px;
-    margin-right: -60px;
-}
-
-.lado-derecho img {
-    display: flex;
-    width: 25px;
-    height: 20hv;
-    border: 1px solid silver;
-    padding: 15px 15px;
-}
-
-
-
-
-.lado-derecho img:hover {
-    transform: scale(1.2);
-}
