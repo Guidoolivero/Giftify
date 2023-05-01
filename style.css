@@ -22,10 +22,6 @@ img {
     margin-top: 50px;
 }
 
-h3 {
-    display: flex;
-    justify-content: center;
-}
 
 h4 {
     position: relative;
@@ -90,24 +86,80 @@ h4 {
 
 /* Linea decorativa del h4 */
 
-h4::after,h4::before {
+h4::after,
+h4::before {
     content: '';
     position: absolute;
-    width: 70px;
+    width: 80px;
     height: 1px;
     background-color: silver;
     top: 0.6em;
 }
 
 h4::before {
-    left: -80px;
+    left: -90px;
 }
 
 h4::after {
-    right: -80px;
+    right: -90px;
 }
 
 .line-effect {
     top: 80px;
     left: -105px;
+}
+
+/* inputs de email y telefono */
+
+.botones {
+    display: flex;
+    position: absolute;
+    top: 240px;
+    right: 530px;
+    background: white;
+    font-size: 0.7rem;
+    
+}
+
+.email {
+    display: flex;
+    position: absolute;
+    top: 240px;
+    right: 530px;
+    background: white;
+    font-size: 0.7rem;
+    margin-right: 180px;
+}
+
+.telefono {
+    display: flex;
+    position: absolute;
+    top: 240px;
+    right: 530px;
+    background: white;
+    font-size: 0.7rem;
+    margin-left: 7px;
+    margin-right: 15px;
+}
+
+.email:hover {
+    justify-content: center;
+    background: orangered;
+    border-radius: 10px;
+    color: white;
+    width: 60px;
+    height: 20px;
+    padding: 10px 10px 5px 10px;
+    margin-right: 150px;
+}
+.telefono:hover {
+    justify-content: center;
+    background: orangered;
+    border-radius: 10px;
+    color: white;
+    width: 95px;
+    height: 20px;
+    padding: 10px 10px 5px 10px;
+    margin-left: -15px;
+    margin-right: -10px;
 }
