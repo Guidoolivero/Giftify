@@ -85,7 +85,7 @@ h4 {
     flex-direction: row;
     gap: 50px;
     margin-left: -216px;
-    margin-right: 40px;
+    margin-right: -90px;
 }
 
 /* Linea decorativa del h4 */
@@ -108,6 +108,6 @@ h4::after {
 }
 
 .line-effect {
-    top: 90px;
-    left: -235px;
+    top: 80px;
+    left: -105px;
 }
